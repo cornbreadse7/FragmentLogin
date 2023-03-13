@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+        </Space>
+
+        <Button
+            android:id="@+id/buttonFrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 1" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+        </Space>
+
+        <Button
+            android:id="@+id/buttonFrag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+        </Space>
+
+        <Button
+            android:id="@+id/buttonCerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cerrar" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+        </Space>
+        <Button
+            android:id="@+id/buttonInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Infor" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="0dp">
+        </Space>
+
+        <TextView
+            android:id="@+id/textContenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Texto" />
+    </LinearLayout>
+
+
+</LinearLayout>
