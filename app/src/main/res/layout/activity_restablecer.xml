@@ -12,6 +12,14 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
@@ -26,28 +34,19 @@
         android:hint="@string/usuario" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="textPassword" />
-
-
+        android:hint="email"
+        android:inputType="textEmailAddress" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="300dp" />
-
     <Button
-        android:id="@+id/Butact2"
+        android:id="@+id/Butact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/iniciar_sesion" />
-
-    <Button
-        android:id="@+id/Butact3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/olvide_passowrd" />
+        android:text="Restablecer" />
 
 </LinearLayout>

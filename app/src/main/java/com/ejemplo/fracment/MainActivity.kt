@@ -21,5 +21,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(act2) //lansamos segundo activity
         }
 
+        binding.Butact3.setOnClickListener {
+
+            val res = Intent(this, Restablecer::class.java)
+            startActivity(res)
+            //val act3 = Intent(this, MainActivity3::class.java)
+            //startActivity(act3)
+        }
+
     }
 }

@@ -1,9 +1,10 @@
 <resources>
-<string name="app_name">Implementando Fragment en Android</string>
-<string name="hello_blank_fragment">Hello blank fragment</string>
-<string name="usuario">Usuario</string>
-<string name="password">Contraseña</string>
-<string name="iniciar_sesion">Iniciar Sesion</string>
-<string name="olvide_passowrd">Olvide mi Contraseña</string>
-<string name="fragment1">Nuevo Fragmento</string>
+    <string name="app_name">Implementando Fragment en Android</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="olvide_passowrd">Olvide mi Contraseña</string>
+    <string name="restablecerpassword">Restablecer Contraseña</string>
+    <string name="fragment1">Nuevo Fragmento</string>
 </resources>
